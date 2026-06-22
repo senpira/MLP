@@ -1,0 +1,83 @@
+
+
+h1{
+    letter-spacing:0.2em ;
+    font-size: 4em;
+    margin: 0;
+padding: 0,5em;
+}
+
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:  "Share Tech", sans-serif;
+   
+}
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topper{  
+    padding: 0;
+    margin: 0;
+      background-color: #78899b;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+}
+#nav{
+    font-weight: 600;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 70vw;
+}
+#names{
+    width:25vw;}
+#bgpage{
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+     background-image: url(mountains.avif);
+};
+.fatxt{
+    font-weight: 800;
+    font-size: 3em;
+}
+.smol{
+
+    font-weight: 300;
+}
+.smolp{ 
+    font-size: 1.8em;
+    margin: 0;
+    padding: 1em;
+}
+
+button{ 
+    font-size: 1.5em;
+    font-family:  "Share Tech", sans-serif;
+    border: 0;
+    width: 35vw;
+    height: 10vh;
+    align-self: center;
+ text-align: center;
+ background-color: rgb(16, 16, 16);
+ color: whitesmoke;
+
+}
+button:hover{
+    border: 3px solid whitesmoke;
+}
+button:active{
+    border: 4px solid rgb(180, 179, 179);
+}
