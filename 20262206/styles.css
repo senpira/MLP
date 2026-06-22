@@ -1,0 +1,24 @@
+div{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+#green{
+ background-color: rgb(71, 142, 71);
+}
+#yellow{
+ background-color: rgb(191, 191, 121);
+}
+#blue{ background-color: rgb(95, 95, 233);
+
+}
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+a{
+    margin: 0;
+    padding:16px;
+    color: rgb(92, 0, 0);
+}
