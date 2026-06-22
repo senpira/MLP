@@ -17,7 +17,7 @@ html{
     scroll-behavior: smooth;
     
 }
-a{
+a{ 
     margin: 0;
     padding:16px;
     color: rgb(92, 0, 0);
