@@ -76,7 +76,9 @@ button{
 
 }
 button:hover{
-    border: 3px solid whitesmoke;
+    transform: scale(1.1);
+    border: 2px solid whitesmoke;
+    transition: 0.5s;
 }
 button:active{
     border: 4px solid rgb(180, 179, 179);
