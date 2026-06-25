@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#boss{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+.trio{
+    height: 50%;
+    width: 33%;
+}
+
+.one, .seven{
+    width: 100%;
+    height: 25%;
+}
+.one{
+    background-color: bisque;
+}
+.seven{
+    background-color: aqua;
+}
+.two, .three, .four{
+    width: 100%;
+    height: 33%;
+}
+.two{
+    background-color: black;
+}
+.three{
+    background-color: yellowgreen;
+    height: 34%;
+}
+.four{
+    background-color: lemonchiffon;
+}
+.duo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 67%;
+    height: 50%;
+}
+.five, .six{
+    height: 100%;
+    width: 50%;
+}
+.five{
+    background-color: purple;
+}
+.six{
+    background-color: palevioletred;
+}
