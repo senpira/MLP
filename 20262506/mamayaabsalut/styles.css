@@ -1,0 +1,41 @@
+.box{
+    background-color: rgb(212, 212, 212);
+    border: 5px solid rgb(49, 49, 49);
+    height: 50vh;
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.wrapper{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 20vh;
+}
+body{
+    margin: 0;
+}
+.box>p{
+    margin:5px
+}
+.circle{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -55px;
+    right: 31%;
+    height: 66px;
+    width: 66px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.image{
+    width: 40px;
+    height: 40px;
+}

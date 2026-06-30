@@ -1,0 +1,29 @@
+.first{
+    width: 100vw;
+    height: 20%;
+    background-color: goldenrod;
+}
+body{
+    margin:0;
+}
+.second{
+    width: 80%;
+    height: 80%;
+    background-color: azure;
+
+}
+.third{
+    background-color: hotpink;
+    width: 20%;
+    height: 80%;
+}
+.first, .second, .third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}

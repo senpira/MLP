@@ -1,0 +1,21 @@
+div{
+    margin-top: 50px;
+}
+
+.one>p:nth-child(even){
+    color: pink;
+    
+}
+.two>p:nth-child(odd){
+    font-size: 30px;
+}
+.three>p:nth-child(2n +4)::after{
+    content: "!";
+}
+.four>p:last-child{
+    color: rgb(174, 243, 37);
+}
+.five>p::first-letter{
+    font-size: 30px;
+    color: red;
+}
